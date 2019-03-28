@@ -1,10 +1,12 @@
 package Tst;
 
+import java.io.IOException;
+
 //1. RuntimeException sys deal with/try-catch
 //2. checkedException must be try-catch
 class TestException {
 
-	static void testThrowsToSys() {
+	static void testThrowsToSys() { // runtimeException
 		int a = 1 / 0; // stop all
 	}
 
@@ -37,12 +39,24 @@ class TestException {
 		}
 	}
 
+	void mtd0() {
+		try {
+			throw new IOException("自定义异常！ "); // checked_exception must deal with by try-catch in the end
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	void mtd1() {
+		throw new RuntimeException("自定义异常！ "); // runtime_exception deal with by system default
+	}
+
 }
 
 public class ExceptionTst {
 
 	public static void main(String[] args) {
-		// TestException.testThrowsToSys();
+		TestException.testThrowsToSys();
 		TestException.test();
 		TestException.testArrException();// output: at cn.hugo.ExceptionDemo.main(ExceptionDemo.java:32)//P + C + M
 

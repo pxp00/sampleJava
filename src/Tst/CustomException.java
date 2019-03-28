@@ -7,6 +7,7 @@ class DefaultException extends Exception { // custom exception
 	public DefaultException(String msg) {
 		super(msg);
 	}
+
 }
 
 class TestMethodException {
@@ -20,10 +21,11 @@ class TestMethodException {
 public class CustomException {
 
 	public static void main(String[] args) {
+
 		// alt + shift + z
 		try {
 			// 2.meet condition, throw obj_exceptiona
-			throw new DefaultException("自定义异常！ "); // throw the instance object of exception
+			throw new DefaultException("自定义异常！ "); // throw obj_exception
 		} catch (Exception e) {
 			System.out.println(e);// output: cn.hugo.DefaultException: 自定义异常！// package + class
 
@@ -39,5 +41,4 @@ public class CustomException {
 			e.printStackTrace();
 		}
 	}
-
 }
