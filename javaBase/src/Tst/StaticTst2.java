@@ -32,7 +32,6 @@ public class StaticTst2 {
 		System.out.println(finalTst2.a);
 		System.out.println(finalTst1.a);
 		System.err.println(StaticTst2.a);
-
 	}
 
 }

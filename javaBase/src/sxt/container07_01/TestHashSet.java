@@ -16,7 +16,6 @@ public class TestHashSet {
 
 		ret = set1.add("aa");
 		System.out.println("ret0 = " + ret);
-
 		set1.add("bb");
 
 		ret = set1.add("aa"); // ** elements couldn't repeatedly
