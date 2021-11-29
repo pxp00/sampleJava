@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commonsIO-2.5.0(aar-jar)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/commonsIO-2.5.0(aar-jar).jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -7,6 +7,7 @@ import java.io.IOException;
 // 2. decode: bytes ---charSet---> string("xxx") // String​(byte[] bytes, int offset, int length, String charsetName) 
 public class CharSet {
 
+	//** hello world you need write something and try your best ?
 	public static void main(String[] args) throws IOException {
 		String msg1 = "世界你好h";
 		byte[] bytes = msg1.getBytes();
