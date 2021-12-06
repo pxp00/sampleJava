@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Tst;
+package tst.tmp;
 
 import java.util.Random;
 

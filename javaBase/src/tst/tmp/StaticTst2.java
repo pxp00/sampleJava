@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Tst;
+package tst.tmp;
 
 import java.util.Random;
 
@@ -9,9 +9,9 @@ import java.util.Random;
 //static var could be init once only, one copy only;
 public class StaticTst2 {
 
-	// private: obj_curCls use only, cls_child couldn't use
+	// private: obj_curCls use only, subCls couldn't use,  visible
 	// final: constant, change at init only, multi-copy
-	// static: init once only, once copy only on mtd_district(heap)
+	// static: once copy only on mtd_district(heap)
 	private final static float PI = 3.14f;
 
 	static Random random = new Random();

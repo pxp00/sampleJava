@@ -1,4 +1,4 @@
-package Tst;
+package tst.exception;
 
 //1. extends cls_exception
 class DefaultException extends Exception { // custom exception

@@ -1,4 +1,4 @@
-package Tst;
+package tst.tmp;
 
 public class SingleTonTest { // public(all class), protected(package itself class add child class),
 	// default(package itself class), private(class itself)

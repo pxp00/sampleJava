@@ -1,4 +1,4 @@
-package Tst;
+package tst.tmp;
 
 import java.math.BigInteger;
 import java.util.Scanner;

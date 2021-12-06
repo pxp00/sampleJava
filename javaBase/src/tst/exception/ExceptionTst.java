@@ -1,4 +1,4 @@
-package Tst;
+package tst.exception;
 
 import java.io.IOException;
 

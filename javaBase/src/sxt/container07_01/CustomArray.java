@@ -73,6 +73,7 @@ public class CustomArray<E> {
 		return sb.toString();
 	}
 
+	// psvm
 	public static void main(String[] args) {
 		// new a container
 		CustomArray<String> customArray = new CustomArray<>(4);
@@ -94,7 +95,8 @@ public class CustomArray<E> {
 		System.out.println(customArray);
 
 		customArray.remove("dd");
-		System.out.println(customArray);
+		System.out.println(customArray);  // sout
+
 
 	}
 }
